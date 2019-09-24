@@ -1,4 +1,3 @@
-#lang scheme
 ;;; Exercise 1.1:Below is a sequence of expressions.
 ;;; What isthe result printed by the interpreter in response to each ex-pression?
 ;;; Assume that the sequence is to be evaluated inthe order in which it is presented.
