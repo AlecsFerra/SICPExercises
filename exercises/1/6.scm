@@ -5,7 +5,7 @@
 (define (good-enough? guess x)
   (< (abs (- (square guess) x)) 0.001))
 (define (improve guess x)
-  (/ 2.0 (+ guess x)))
+  (avg2 guess (/ x guess)))
 
 ;;; Exercise 1.6:Alyssa P. Hacker doesn’t see whyifneeds tobe provided as a special form.
 ;;; “Why can’t I just define it asan ordinary procedure in terms ofcond?” she asks.
